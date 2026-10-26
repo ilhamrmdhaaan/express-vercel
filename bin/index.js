@@ -1,3 +1,3 @@
 // index.js (di root project)
-const app = require('./app');
+const app = require('../bin/app/app');
 module.exports = app;
