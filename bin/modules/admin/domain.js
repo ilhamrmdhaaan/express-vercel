@@ -8,14 +8,14 @@ const message = async param => {
             },
             {
                 text: "Strive to the best of your ability, as if the entire outcome depended on your efforts. But afterward, place your trust in Him as if you had done nothing, and surrender everything to Him.",
-                source: "Classical Sufi Wisdom"
+                source: "Kearifan Sufi Klasik"
             },
             {
                 text: "There are two kinds of patience: patience with what you dislike, and patience in refraining from what you like.",
                 source: "Sayyidina Ali bin Abi Thalib"
             },
             {
-                text: "Sincerity is when your intention is purely for the sake of Allah, and you no longer care whether people praise or criticize you for what you have done.",
+                text: "Sincerity is the purity of intention where one seeks nothing other than Allah in all their deeds.",
                 source: "Imam Al-Ghazali"
             }
         ],
