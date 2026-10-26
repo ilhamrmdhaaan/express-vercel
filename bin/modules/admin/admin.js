@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const domain = require('./domain');
 
-router.get('/message', async (req, res) => {
+router.get('/', async (req, res) => {
     
 
     try {

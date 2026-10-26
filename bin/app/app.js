@@ -18,7 +18,7 @@ const AdminRouter = require('../modules/admin/admin')
 
 
 
- app.use('/v1/',  AdminRouter)
+ app.use('/v1/ilhamramadhani',  AdminRouter)
 
 
 
