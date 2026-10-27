@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const logger = require('morgan')
 
 const app = express()
-app.set('json spaces', 2);
+app.set('json spaces', 1);
 app.use(cors())
 app.use(logger('combined'))
 app.use(bodyParser.json({ limit: '20mb' }));
