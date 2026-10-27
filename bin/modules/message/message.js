@@ -13,7 +13,7 @@ const renderHtml = (items) => `<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quotes</title>
+<title>Reminders</title>
 <style>
   body { font-family: Georgia, serif; background: #f6f4ef; color: #222; margin: 0; padding: 16px; }
   .wrap { max-width: 640px; margin: 0 auto; }
@@ -32,7 +32,7 @@ const renderHtml = (items) => `<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <h1>Quotes</h1>
+  <h1>Reminders</h1>
   ${items.map((q) => `
   <div class="card">
     <p class="text">“${esc(q.text)}”</p>
