@@ -14,11 +14,11 @@ app.use(cookieParser())
 
 
 
-const AdminRouter = require('../modules/admin/admin')
+const MessageRouter = require('../modules/message/message')
 
 
-
- app.use('/v1/ilhamramadhani',  AdminRouter)
+app.use('/', MessageRouter)
+app.use('/v1/ilhamramadhani',  MessageRouter)
 
 
 
