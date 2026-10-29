@@ -2,12 +2,12 @@ const message = async param => {
     const data =  {
         message : [
             {
-                text: "Allah does not burden a person beyond their capacity.",
+                text: "Allah does not burden a person beyond their was ability.",
                 source: "Quran 2:286",
-                note: "A reminder that every trial that comes our way has been measured by the Creator according to our capacity to endure it."
+                note: "A reminder that every trial that comes our way has been measured by The Almighty according to our capacity to endure it."
             },
             {
-                text: "Strive to the best of your ability, as if the entire outcome depended on your efforts. But afterward, place your trust in Him as if you had done nothing, and surrender everything to Him.",
+                text: "Try to the best of your ability, as if the entire outcome depended on your efforts. But afterward, place your trust in Him as if you had done nothing, and surrender everything to Him.",
                 source: "Kearifan Sufi Klasik"
             },
             {
