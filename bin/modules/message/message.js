@@ -32,7 +32,7 @@ const renderHtml = (items) => `<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <h1>Reminders</h1>
+//   <h1>Reminders</h1>
   ${items.map((q) => `
   <div class="card">
     <p class="text">“${esc(q.text)}”</p>
